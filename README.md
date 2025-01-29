@@ -5,4 +5,4 @@ Creates sensible DNS entries in AWS Route53 for inactive or parked domains, base
 
 ## Related Material
 
-See: https://www.m3aawg.org/sites/default/files/m3aawg_parked_domains_bcp-2022-06.pdf
+See:  [M3AAWG Parked Domains Best Common Practices](https://www.m3aawg.org/sites/default/files/m3aawg_parked_domains_bcp-2022-06.pdf)
