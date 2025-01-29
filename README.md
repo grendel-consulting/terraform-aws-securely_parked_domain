@@ -14,6 +14,7 @@ module "parked_domain" {
   rua_email  = "dmarc-reports@example.com"
   caa_email  = "security@example.com"
 }
+```
 
 ## Requirements
 
