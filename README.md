@@ -39,3 +39,7 @@ When provided with a target domain and AWS Route53 Zone ID, this module creates 
 - CAA records
 
 It assumes that SOA records will have been created and continue to be managed by AWS.
+
+## Registry
+
+Published on the [Terraform Registry](https://registry.terraform.io/modules/grendel-consulting/securely_parked_domain/aws/latest)
