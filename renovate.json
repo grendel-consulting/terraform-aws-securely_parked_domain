@@ -1,0 +1,12 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:best-practices", "schedule:nonOfficeHours", ":gitSignOff"],
+    "pre-commit": {
+      "enabled": true
+    },
+    "timezone": "Europe/London",
+    "vulnerabilityAlerts": {
+      "labels": ["security"],
+      "assignees": ["@ramirezj"]
+    }
+  }
