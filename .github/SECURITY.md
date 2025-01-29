@@ -56,7 +56,7 @@ in this section together with things to watch out for.
 
 ### Our Security Toolchain
 
-- GitHub [Advisories](https://github.com/grendel-consulting/steampipe-plugin-kolide/security/advisories)
+- GitHub [Advisories](https://github.com/grendel-consulting/terraform-aws-securely_parked_domain/security/advisories)
 - [Renovate](https://renovate.whitesourcesoftware.com/)
 - [StepSecurity](https://www.stepsecurity.io/)
 - [SocketDev](https://socket.dev/)
