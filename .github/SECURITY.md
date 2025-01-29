@@ -23,8 +23,8 @@ report. After the initial reply to your report, we will endeavor to keep you
 informed of the progress towards a fix and full announcement, and may ask for
 additional information or guidance.
 
-Report security bugs in third-party modules should be to the person or team
-maintaining said module.
+Security bugs in third-party modules should be reported to the person or team
+maintaining the respective module.
 
 ## Disclosure Policy
 
@@ -62,6 +62,9 @@ in this section together with things to watch out for.
 - [SocketDev](https://socket.dev/)
 
 ### Our Security Checklist
+
+We use the keywords "MUST", "MUST NOT", and "SHOULD" in this document
+as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
 - [ ] You MUST encode, escape and validate any inputs
 - [ ] You MUST NOT commit secrets, passwords or keys

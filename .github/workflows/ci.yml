@@ -30,7 +30,7 @@ jobs:
 
       - name: Prettify
         run: terraform fmt -check
-        continue-on-error: true
+        # continue-on-error: true
 
       - name: Initialise
         run: terraform init
