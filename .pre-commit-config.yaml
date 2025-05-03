@@ -19,7 +19,7 @@ repos:
         args: ['--baseline', '.secrets.baseline']
         exclude: '.*.(terraform.lock.hcl|tfvars)$'
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.25.0
+    rev: v8.25.1
     hooks:
       - id: gitleaks
   - repo: https://github.com/pre-commit/pre-commit-hooks
