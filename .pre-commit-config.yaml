@@ -9,7 +9,7 @@ repos:
         args:
         -  --args=--skip-files="./cloudformation/bootstrap.yaml"
   - repo: https://github.com/koalaman/shellcheck-precommit
-    rev: v0.10.0
+    rev: v0.11.0
     hooks:
     -   id: shellcheck
   - repo: https://github.com/Yelp/detect-secrets
