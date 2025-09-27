@@ -1,12 +1,18 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["config:best-practices", "schedule:nonOfficeHours", ":gitSignOff"],
-    "pre-commit": {
-      "enabled": true
-    },
-    "timezone": "Europe/London",
-    "vulnerabilityAlerts": {
-      "labels": ["security"],
-      "assignees": ["@ramirezj"]
-    }
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    "schedule:nonOfficeHours",
+    ":gitSignOff"
+  ],
+  "internalChecksFilter": "strict",
+  "minimumReleaseAge": "3 days",
+  "pre-commit": {
+    "enabled": true
+  },
+  "timezone": "Europe/London",
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "assignees": ["ramirezj"]
   }
+}
